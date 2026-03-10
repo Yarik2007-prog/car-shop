@@ -93,3 +93,13 @@ address a{
 ul{
     list-style: none;
 }
+
+table{
+    border: 2px solid rgb(238, 192, 113);
+    text-align: center;
+    margin: 0 auto;
+}
+
+th, td{
+    border: 2px solid rgb(238, 192, 113);
+}
