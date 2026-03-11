@@ -28,7 +28,7 @@ nav{
 .header_list{
     display: flex;
     list-style: none;
-    gap: 30%;
+    gap: 20%;
 }
 
 h1{
@@ -95,11 +95,13 @@ ul{
 }
 
 table{
-    border: 2px solid rgb(238, 192, 113);
+    border: 4px solid rgb(238, 192, 113);
     text-align: center;
     margin: 0 auto;
+    font-size: larger;
 }
 
 th, td{
     border: 2px solid rgb(238, 192, 113);
+    width: 100px;
 }

@@ -3,9 +3,131 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style-form.css">
     <title>Car-Shop Form</title>
 </head>
 <body>
-    
+    <header>
+        <a href="../../index.html">На головну</a>
+    </header>
+
+    <main>
+         <form>
+            <fieldset id="personal-info">
+                <legend>Personal info</legend>
+                <div class="form-elem">
+                    <label for="first-name">First name</label>
+                    <input type="text" name="first-name" id="first-name">
+                </div>
+                <div class="form-elem">
+                    <label for="">Last name</label>
+                    <input type="text" name="last-name" id="last-name">
+                </div>
+                <div class="form-elem">
+                    <label for="birthday">Birthday</label>
+                    <input type="datetime-local" name="birthday" id="birthday">
+                </div>
+
+                <div class="form-elem">
+                    <div class="gender-name">Gender</div>
+                    <label for="gender-male">Male</label>
+                    <input type="radio" name="gender-male" id="gender-male">
+                    <label for="gender-female">Female</label>
+                    <input type="radio" name="gender-female" id="gender-female">
+                </div>
+
+                <div class="form-elem">
+                    <label for="expirience-choice">Drive expirience</label>
+                        <select id="expirience-choice">
+                            <option value="...">...</option>
+                            <option value="less-5-years">Менше 5 років</option>
+                            <option value="more-5-years">Більше 5 років</option>
+                        </select>
+                </div>
+
+            </fieldset>
+
+            <fieldset id="contacts">
+
+                <legend>Contacts</legend>
+
+                <div class="form-elem">
+                    <label for="email-text">Email</label>
+                    <input type="email" name="email-text" id="email-text">
+                </div>
+
+                <div class="form-elem">
+                    <label for="phone-num">Phone</label>
+                    <input type="tel" name="phone-num" id="phone-num">
+                </div>
+
+                <div class="form-elem">
+                    <label for="adres-persone">Address</label>
+                   <textarea name="adres-persone" id="adres-persone"></textarea>
+                </div>
+
+            </fieldset>
+
+            <fieldset id="car-info">
+                <legend>Car info</legend>
+                
+                <div class="form-elem">
+                    <label for="brand-choice">Brand</label>
+
+                    <select id="brand-choice">
+                            <option value="...">...</option>
+                            <option value="Ford">Ford</option>
+                            <option value="Toyota">Toyota</option>
+                            <option value="FIAT">FIAT</option>
+                        </select>
+                </div>
+
+                <div class="form-elem">
+                    <label for="">Model</label>
+
+                    <select id="expirience-choice">
+                            <option value="...">...</option>
+                            <option value="mustang">Mustang</option>
+                            <option value="focus">Focus</option>
+                            <option value="corolla">Corolla</option>
+                            <option value="rav4">RAV4</option>
+                            <option value="500">500</option>
+                            <option value="panda">Panda</option>
+                        </select>
+
+                </div>
+
+                <div class="form-elem">
+                    <label for="check-used">Used</label>
+                    <input type="checkbox" name="check-used" id="check-used">
+                </div>
+
+                <div class="form-elem">
+                    <div class="color-name">Color</div>
+                    <label for="red">Red</label>
+                    <input type="radio" name="red" id="red" checked>
+
+                    <label for="blue">Blue</label>
+                    <input type="radio" name="blue" id="blue">
+
+                    <label for="black">Black</label>
+                    <input type="radio" name="black" id="black">
+
+                    <label for="white">White</label>
+                    <input type="radio" name="white" id="white">
+
+                    <label for="gray">Gray</label>
+                    <input type="radio" name="gray" id="gray">
+
+                </div>
+            </fieldset>
+
+            <div class="form-elem-btn">
+                <input type="reset" value="Cancel">
+                <input type="submit" value="Ok">
+            </div>
+
+        </form>
+    </main>
 </body>
 </html>

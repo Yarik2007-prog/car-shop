@@ -1,0 +1,15 @@
+form{
+    border: 5px solid rgb(117, 114, 114);
+    width: 30%;
+    margin-top: 2%;
+    margin: 0 auto;
+}
+
+textarea {
+  max-height: 130px;
+  max-width: 150px;
+}
+
+.form-elem-btn{
+    margin-top: 2%;
+}
