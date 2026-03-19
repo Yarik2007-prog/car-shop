@@ -13,14 +13,13 @@ h1{
 form{
     display: flex;
     justify-content: center;
-    border: 5px solid rgb(117, 114, 114);
     width: 80%;
     margin-top: 2%;
     margin: 0 auto;
 }
 
 fieldset{
-    width: 280px;
+    width: 25%;
     height: 270px;
 }
 
@@ -36,7 +35,7 @@ legend{
 }
 
 select{
-    width: 165px;
+    width: 130px;
 }
 
 textarea {
@@ -50,13 +49,21 @@ textarea {
 
 .price{
     flex-direction: column;
+    width: 160px;
 }
 
 datalist{
     display: flex;
     justify-content: space-between;
+    font-size: 10px;
 }
 
 .form-elem-btn{
     margin-top: 2%;
+    text-align: center;
+}
+
+.form-elem-btn > input{
+    width: 100px;
+    height: 30px;
 }
