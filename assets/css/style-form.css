@@ -1,13 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+
+main{
+    margin-top: 100px;
+}
+
+h1{
+    text-align: center;
+}
+
 form{
+    display: flex;
+    justify-content: center;
     border: 5px solid rgb(117, 114, 114);
-    width: 30%;
+    width: 80%;
     margin-top: 2%;
     margin: 0 auto;
 }
 
+fieldset{
+    width: 280px;
+    height: 270px;
+}
+
+legend{
+    font-size: 25px;
+}
+
+.form-elem{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-top: 20px;
+}
+
+select{
+    width: 165px;
+}
+
 textarea {
   max-height: 130px;
-  max-width: 150px;
+  max-width: 165px;
+}
+
+.chek{
+    width: 30%;
+}
+
+.price{
+    flex-direction: column;
+}
+
+datalist{
+    display: flex;
+    justify-content: space-between;
 }
 
 .form-elem-btn{
